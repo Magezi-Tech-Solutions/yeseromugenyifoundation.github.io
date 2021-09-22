@@ -1072,10 +1072,9 @@
                         <div class="col-lg-8">
                             <form
                                 class="form-contact contact_form"
-                                action="contact_process.php"
-                                method="post"
+                                action="https://formspree.io/f/xayldyaa"
+                                method="POST"
                                 id="contactForm"
-                                novalidate="novalidate"
                             >
                                 <div class="row">
                                     <div class="col-12">
@@ -2020,5 +2019,11 @@
         <script src="assets/vendor/aos/aos.js"></script>
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
+
+        <script>
+            $('.button-contactForm').click(function() {
+                location.reload();
+            });
+        </script>
     </body>
 </html>
